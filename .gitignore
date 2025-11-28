@@ -1,0 +1,30 @@
+# Node / Nuxt build artifacts
+node_modules/
+.nuxt/
+.output/
+.nitro/
+.dist/
+
+# Logs and diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local tooling
+coverage/
+.happypack/
+*.local
